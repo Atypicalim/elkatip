@@ -115,10 +115,10 @@ class Elkatip():
             if skipNext:
                 skipNext = False
                 continue
-            if map[i] == la1.base1 and map[i + 1] == la1.base2:
+            if map[i] == la1.base2 and map[i + 1] == la1.base1:
                 result.append(la1.ex)
                 skipNext = True
-            elif map[i] == la2.base1 and map[i + 1] == la2.base2:
+            elif map[i] == la2.base2 and map[i + 1] == la2.base1:
                 result.append(la2.ex) 
                 skipNext = True
             else:
@@ -205,8 +205,10 @@ class Elkatip():
     def toBase(self, text):
         if not isinstance(text, str) or len(text) == 0:
             return ""
-        text.replace("ﻻ", "ﻟﺎ")
-        text.replace("ﻼ", "ﻠﺎ")
+        # 
+        for key in REPLACE_MAP:
+            text.replace(key, REPLACE_MAP[key])
+        # 
         array = list(text)
         map = dict(enumerate(text))
         result = list()
@@ -312,6 +314,9 @@ class Elkatip():
 if __name__ == "__main__":
     ktp = Elkatip()
     ktp.showGui()
-    # uyghurqa = "تادان تۈلكە" # base
+    # uighurche = "ئالىمجان" # base
+    # print(uighurche)
     # uyghurqa = ktp.toExt(uighurche) # ext
     # uighurche = ktp.toBase(uyghurqa) # base
+    # print(uyghurqa)
+    # print(uighurche)
