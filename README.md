@@ -20,6 +20,7 @@ from elkatip inport Elkatip
 ktp = Elkatip()
 ktp.showGui()
 ```
+![ui](https://raw.githubusercontent.com/kompasim/elkatip/master/elkatip/storage/ui.png)
 
 ## 3. Use of program interface
 
