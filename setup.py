@@ -15,7 +15,7 @@ setup(
     long_description_content_type="text/markdown",
     license = "MIT Licence",
 
-    url = "https://github.com/kompasim/uyghur-convert-tool",
+    url = "https://github.com/kompasim/elkatip",
     author = "kompasim",
     author_email = "kompasim@163.com",
 
