@@ -1,6 +1,9 @@
 # encoding=utf-8
 # Elkatip
 
+import os
+import imp
+
 # main class
 class Elkatip():
 
@@ -8,23 +11,26 @@ class Elkatip():
     gui = None
 
     def __init__(self):
+        self.modulePath = os.path.dirname(__file__)
+        print(self.modulePath)
         pass
 
     def toExt(self, text):
         if not self.api:
-            api = __import__("api")
+            api = imp.load_source("api", self.modulePath + "/api.py")
+            api = __import__("./api")
             self.api = api.Api()
         return self.api.toExt(text)
                     
     def toBase(self, text):
         if not self.api:
-            api = __import__("api")
+            api = imp.load_source("api", self.modulePath + "/api.py")
             self.api = api.Api()
         return self.api.toBase(text)
 
     def showGui(self):
         if not self.gui:
-            gui = __import__("gui")
+            gui = imp.load_source("gui", self.modulePath + "/gui.py")
             self.gui = gui.Gui()
         self.gui.showGui()
 

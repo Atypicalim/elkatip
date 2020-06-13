@@ -1,15 +1,17 @@
 # encoding=utf-8
 # gui
 
+import os
+import imp
 import tkinter
 import tkinter.font
 import tkinter.ttk
-from api import Api
 
 # main class
 class Gui():
 
     def __init__(self):
+        self.modulePath = os.path.dirname(__file__)
         self.stageText = "ئېلكاتىپ" # base
         self.fontName = "UKIJ Tuz Qara"
         self.font = (self.fontName, 12)
@@ -24,7 +26,8 @@ class Gui():
 
     # graphic user interface
     def showGui(self):
-        api = Api()
+        api = imp.load_source("api", self.modulePath + "/api.py")
+        api = api.Api()
         windowW = 500
         windowH = 600
         # 

@@ -8,7 +8,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name = "elkatip",
-    version = "0.1.2",
+    version = "0.1.3",
     keywords = ("uyghur", "uighur","alkatip", "elkatip", "base", "ext", "convert", "tool", "gui"),
     description = "Uighur string convert tool for gui",
     long_description = long_description,
