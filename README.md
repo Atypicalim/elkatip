@@ -36,6 +36,11 @@ uyghurqa2 = ktp.toBase(uighurche2) # the common unicode base area string
 ```
 > note: uyghurqa1 and uyghurqa2 are the common text typed by modern input method. and uighurche1 and uighurche2 are the extended area string which u can dislay normally in a graphic program
 
-## 4. At the end
+## 4. other languages
+
+  * [PHP](https://github.com/xirwajim/UyghurCharUtilities)
+  * [JAVA](https://github.com/Alimjan2009/uyghur_convert_util)
+
+## 5. At the end
 
 > honestly, this tool is a java utils when i found it, and i need a python version. so i had to implement the python version myself, and i dont want u to do the same thing i did. hope it is helpful for u.
