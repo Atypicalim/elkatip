@@ -36,11 +36,19 @@ uyghurqa2 = ktp.toBase(uighurche2) # the common unicode base area string
 ```
 > note: uyghurqa1 and uyghurqa2 are the common text typed by modern input method. and uighurche1 and uighurche2 are the extended area string which u can dislay normally in a graphic program
 
-## 4. other languages
+## 4. others
 
-  * [PHP](https://github.com/xirwajim/UyghurCharUtilities)
-  * [Java](https://github.com/Alimjan2009/uyghur_convert_util)
-  * [Python](https://github.com/almasgeek/UyghurLanguage)
+  * https://github.com/xirwajim/UyghurCharUtilities
+  * https://github.com/Alimjan2009/uyghur_convert_util
+  * https://github.com/almasgeek/UyghurLanguage
+  * https://github.com/menzil/uyghur-unicode-letters
+  * https://github.com/Uyghur-LRs/Uyghur-Wordlist
+  * https://github.com/mardan/Uyghur-SpellChecking-Lib
+  * https://github.com/neouyghur/fonts-for-uyghur-arabic-script
+  * https://github.com/gheyret/test_word2vec_uyghur
+  * https://github.com/neouyghur/uyghur-text-to-speech
+  * https://github.com/UyghurDev/Yulghun-vkb
+  * https://github.com/azmat21/Syllabification-for-Uyghur
 
 ## 5. At the end
 
