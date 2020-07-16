@@ -39,7 +39,8 @@ uyghurqa2 = ktp.toBase(uighurche2) # the common unicode base area string
 ## 4. other languages
 
   * [PHP](https://github.com/xirwajim/UyghurCharUtilities)
-  * [JAVA](https://github.com/Alimjan2009/uyghur_convert_util)
+  * [Java](https://github.com/Alimjan2009/uyghur_convert_util)
+  * [Python](https://github.com/almasgeek/UyghurLanguage)
 
 ## 5. At the end
 
