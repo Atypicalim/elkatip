@@ -49,6 +49,9 @@ uyghurqa2 = ktp.toBase(uighurche2) # the common unicode base area string
   * https://github.com/neouyghur/uyghur-text-to-speech
   * https://github.com/UyghurDev/Yulghun-vkb
   * https://github.com/azmat21/Syllabification-for-Uyghur
+  * https://github.com/neouyghur/Multiple-Uyghur-Script-Converter
+  * https://github.com/mardan/Uyghur-Tokenizer
+  * https://github.com/UyghurDev/UySort
 
 ## 5. At the end
 
