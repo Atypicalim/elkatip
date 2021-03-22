@@ -12,13 +12,11 @@ class Elkatip():
 
     def __init__(self):
         self.modulePath = os.path.dirname(__file__)
-        print(self.modulePath)
         pass
 
     def toExt(self, text):
         if not self.api:
             api = imp.load_source("api", self.modulePath + "/api.py")
-            api = __import__("./api")
             self.api = api.Api()
         return self.api.toExt(text)
                     
